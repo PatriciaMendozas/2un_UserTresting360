@@ -1,3 +1,58 @@
+* {
+  outline: 1px solid rgba(255, 0, 0, 0.3);
+}
 
+.fondo {
+  background-image: url("../image/banner.jpg");
+  background-position: right bottom;
+  color: #fff;
+}
 
-/*# sourceMappingURL=main.css.map */
+.capa {
+  background-color: rgba(49, 52, 52, 0.8);
+  padding: 1% 0% 0%;
+}
+
+.tamano_icn {
+  font-size: 35px;
+  color: #2065DE;
+}
+
+.titulo {
+  margin: 15%;
+}
+
+.spac_lados {
+  margin: 0% 2%;
+}
+
+.fondo_celes {
+  background-color: rgba(30, 91, 176, 0.6);
+  background: rgba(30, 91, 176, 0.6);
+  color: #fff;
+}
+
+.btp {
+  margin: 3% 0%;
+}
+
+.subtitulos {
+  margin: 4%;
+  color: #2065DE;
+}
+
+.color_blu {
+  color: #2065DE;
+}
+
+.color_white {
+  color: #fff;
+}
+
+.icono_fin {
+  margin-top: 7%;
+}
+
+.servicios {
+  border-bottom: 1px solid #404040;
+}
