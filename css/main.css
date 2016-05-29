@@ -1,7 +1,4 @@
-* {
-  outline: 1px solid rgba(255, 0, 0, 0.3);
-}
-
+/**{outline:1px solid rgba(255,0,0,0.3);}*/
 .fondo {
   background-image: url("../image/banner.jpg");
   background-position: right bottom;
@@ -142,10 +139,25 @@ hr {
 }
 
 .form-horizontal {
-  margin: 20% 26%;
+  margin: 13% 26%;
   background: #fff;
+  border-top: 6px solid #337AB7;
+  padding: 2% 5% 0%;
 }
 
 .form-horizontal .control-label {
   text-align: left;
+}
+
+.form-group > p {
+  margin-bottom: 0%;
+  text-decoration: underline;
+}
+
+span {
+  color: red;
+}
+
+strong {
+  color: #2065DE;
 }

@@ -10,7 +10,6 @@ html(lang="en")
 		script(type="text/javascript",src="js/booststrap.min.js")
 		link(rel="stylesheet",href="css/main.css")
 	body
-		- var user= "escape";
 		.container
 			.row.fondo
 				.capa
@@ -31,7 +30,8 @@ html(lang="en")
 					h4 Pruebalo Gratis
 					p Obten un video gratis en 5 minutos
 				.col-md-6.text-left
-					button.btn.btn-primary.btp Prueba Gartis
+					a(href='contact.html' target='_blank')
+						button.btn.btn-primary.btp Prueba Gartis
 			.row.text-center
 				h2.subtitulos Nuestros Servicios
 				.col-md-4
@@ -60,7 +60,8 @@ html(lang="en")
 					p sajdjsajdasjdsjsabdjsbdjabsjdabsjdjbjcbjcbjbcjbajcbajs cjascbsc cjasbc casjcbj cajcsc jjjjj casjc j cjasc acj cj cjas cjs cjsac jascsa cjasc jac ajsc jcs acjas cj scj jas cjsa cjsa c caca
 					img.btp.mg_cent.img-responsive(src="image/flecha.png")
 				.col-md-6.mga6
-					p video
+					.video
+						iframe(src='https://www.youtube.com/embed/8dndw44XFC4' width='100%' height='305' frameborder='0' webkitallowfullscreen='' mozallowfullscreen='' allowfullscreen='')
 			.row
 				.col-md-6
 					img.img_lap.img-responsive(src="image/sec-2.jpg")
@@ -88,16 +89,12 @@ html(lang="en")
 				.col-md-6.mgle4.mga6
 					h2.color_blu.text-center Por qué usar
 						img.tam_lg(src="image/logo-2.jpg")
-					p Lorem ha adas dad ad asda shhas shhahsha ashahs sjcshc sajcasjcsacspackcjsacsdhajscascjasjsjjas #{user.color_blu}
-					spam sjjasdjsajd
-					p sajdnasjdnsajsdasd asdascas cjasjcndjc dacnjdncjadncjdancjandcjda
-					spam ajnajdfnajfna
-					p asjnskaakjfdkajad dvjdv dvjdsjvsdv
-					ul.btp
+					p Lorem ha adas dad ad asda shhas shhahsha adsa sad sa dsa as dsada dasdsaashahs sjcshc sajcasjcsacspackcjsacsdhajscascjasjsjjas<strong>sjjasdjsajd</strong>sajdnasjd asda sad sadas das d sadsa dsadas dasdasdas dasd dnsajsdasd asdascas cjasjcndjc njdncjadnc <strong>sjjasdjsajd</strong>jdancjandcjdaejndjwndj ewjdnewjnd d csdc dc sd csd csd c sdc dsc sdc s c ejwn:
+					ul.mga6
 						li A primera vista
 						li A primera vista
 						li A primera vista
-					p sajdjsajdasjdsjsabdjsbdjabsjdabsjdjbjcbjcbjbcjbajcbajs cjascbsc cjasbc casjcbj cajcsc jjjjj casjc j jasjcs acjas cj scj jas cjsa cjsa c caca
+					p sajdjsa <strong>sjjasdjsajd</strong> jdasjdsjsabdjsbdjabsjdabsjdjbjcbjcbjbcjbajcbajs cjascbsc cjasbc casjcbj cajcscdscd cds c sd cdscds cds cc jjjjj casjc j jasjcs acjas cj scj jas cjsa cjsa c caca
 				.col-md-6.mga6
 					img.imgjov(src="image/banner.jpg")
 			.row.text-center.fondo_celes
@@ -105,7 +102,8 @@ html(lang="en")
 					h4 Pruebalo Gratis
 					p Obten un video gratis en 5 minutos
 				.col-md-6.btp
-					button.btn.btn-primary.btp Prueba Gartis
+					a(href='contact.html' target='_blank')
+						button.btn.btn-primary.btp Prueba Gartis
 			.row.fondo_azul
 				.col-md-6.mg2
 					p Escribanos a

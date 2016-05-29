@@ -14,18 +14,19 @@ html(lang="en")
 			.h1.btp Formulario User Testing 360
 			hr.btp
 			.form-group
-				label.col-sm-2.control-label(for='inputEmail3') Nombre
-				.col-sm-10
+				label.col-sm-4.control-label(for='inputEmail3') Nombre <span> * </span>
+				.col-sm-8
+					input.form-control#inputEmail3(type='text' placeholder='nombre')
+			.form-group
+				label.col-sm-4.control-label(for='inputPassword3') Email<span> * </span>
+				.col-sm-8
 					input.form-control#inputEmail3(type='email' placeholder='Email')
 			.form-group
-				label.col-sm-2.control-label(for='inputPassword3') Email
-				.col-sm-10
-					input.form-control#inputEmail3(type='password' placeholder='Password')
-			.form-group
-				label.col-sm-2.control-label(for='inputPassword3') Deja tu URL
-				.col-sm-10
-					input.form-control#inputEmail3(type='password' placeholder='Password')
+				label.col-sm-4.control-label(for='inputPassword3') Deja tu URL <span> * </span>
+				.col-sm-8
+					textarea.form-control#inputEmail3(type='text' placeholder='www.' rows='3')
 			.form-group.text-center
-				button.btn.btn-sm.btn-primary(type='submit') Enviar Email
-				P.pull-left Pawer by Laboratoria
+				button.btn.btn-sm.btn-primary.pull-left Enviar Email
+			.form-group
+				P.pull-left Pawer by Equipo Laboratoria
 				p.pull-right Report abuse
